@@ -14,6 +14,8 @@ contract MintableToken is StandardToken, Ownable {
 
   event MintFinished();
 
+  event ShowInfo(uint256 _info, string _message);
+
   bool public mintingFinished = false;
 
   bool public initialize = false;
@@ -23,6 +25,8 @@ contract MintableToken is StandardToken, Ownable {
 
   //Storage for ICO Buyers Token
   mapping(address => uint256) public ico_buyers_token;
+
+  address[] investors;
 
   modifier canMint() {
     require(!mintingFinished);
@@ -49,6 +53,10 @@ contract MintableToken is StandardToken, Ownable {
   
   function mint(address _address, uint256 _amount, uint256 _tokens) canMint {
 
+    if (ico_buyers_token[_address] == 0) {
+      investors.push(_address);
+    }
+
     // Store ETH of Investor
     ico_buyers_eth[_address] = ico_buyers_eth[_address].add(_amount);
 
@@ -59,7 +67,6 @@ contract MintableToken is StandardToken, Ownable {
 
     balances[_address] = balances[_address].add(_tokens);
 
-    totalSupply = totalSupply.sub(_tokens);
     soldTokens = soldTokens.add(_tokens);
   }
 
@@ -71,7 +78,10 @@ contract MintableToken is StandardToken, Ownable {
     Mint(_secondAddress, _tokens);    
     balances[_secondAddress] = balances[_secondAddress].add(_tokens);
 
-    totalSupply = 0;
+    soldTokens = soldTokens.add(_tokens).add(_tokens);
+    
+    totalSupply = soldTokens.add(_tokens).add(_tokens);
+    
   }
 
   function getSoldToken() public constant returns(uint256) {
@@ -90,8 +100,20 @@ contract MintableToken is StandardToken, Ownable {
     mintingFinished = true;
   }
 
+  function getInvestors() public constant returns(uint256) {
+    return investors.length;
+  }
+
+  function getInvestorByIndex(uint256 _index) public constant returns(address) {
+    return investors[_index];
+  }
+
   function transfer(address _from, address _to, uint256 _amount) public returns(bool) {
     return transferFrom(_from, _to, _amount);
+  }
+
+  function getInvestorByValue(address _address)  public constant returns(uint256) {
+    return ico_buyers_eth[_address];
   }
 
 }

@@ -49,10 +49,11 @@
     "whatwg-fetch": "1.0.0"
   },
   "dependencies": {
-    "bootstrap": "^4.0.0-alpha.6",
+    "bootstrap": "4.0.0-alpha.6",
     "dotenv": "^2.0.0",
     "material-ui": "^0.19.1",
     "moment": "^2.18.1",
+    "moment-duration-format": "^1.3.0",
     "react": "^15.4.2",
     "react-addons-css-transition-group": "^15.6.0",
     "react-addons-transition-group": "^15.6.0",
@@ -66,7 +67,8 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js --env=jsdom"
+    "test": "node scripts/test.js --env=jsdom",
+    "deploy": "forever start -a --uid alexICO scripts/start.js"
   },
   "jest": {
     "collectCoverageFrom": [

@@ -27,8 +27,6 @@ contract Crowdsale is Ownable {
 
     uint256 decimals;
 
-    address ownerContract;
-
     //Time-based Bonus Program
     uint256 firstBonusPhase;
     uint256 firstExtraBonus;
@@ -78,12 +76,10 @@ contract Crowdsale is Ownable {
       decimals = 1000000000000; // 0.0000001 ETH // 2 decimals
 
       //11.09.2017 07:00 UTC (1505113200)
-      ico_start = 1504497270;
+      ico_start = 1504761000;
 
       //29.09.2017 23:59 UTC
       ico_finish = 1506729540;
-
-      ownerContract = msg.sender;
 
       token.setTotalSupply();
 
@@ -222,6 +218,14 @@ contract Crowdsale is Ownable {
       return true;
     }
 
+    function setTransferOwnership(address _address) public onlyOwner {
+
+      removePrivlegedWallet(msg.sender);
+      setPrivlegedWallet(_address);
+
+      transferOwnership(_address);
+    }
+
     function removePrivlegedWallet(address _address) public onlyOwner {
       if (privilegedWallets[_address] == g) {
         privilegedWallets[_address] = r;
@@ -263,7 +267,7 @@ contract Crowdsale is Ownable {
 
       uint256 allTokens = (tokens.add(timeBonus)).add(volumeBonus);
 
-      token.mint(msg.sender, eth, tokens);
+      token.mint(msg.sender, eth, allTokens);
     }
 
     function sendToAddress(address _address, uint256 _tokens) {
@@ -426,6 +430,10 @@ contract Crowdsale is Ownable {
     }
 
     function getLeftToken() public constant returns(uint256) {
+      return token.totalSupply() - token.getSoldToken();
+    }
+
+    function getTotalToken() public constant returns(uint256) {
       return token.totalSupply();
     }
 
@@ -450,6 +458,22 @@ contract Crowdsale is Ownable {
 
     function transfer(address _from, address _to, uint256 _amount) public returns(bool) {
       return token.transfer(_from, _to, _amount);
+    }
+
+    function getOwner() public constant returns(address) {
+      return owner;
+    }
+
+    function getInvestors() public constant returns(uint256) {
+      return token.getInvestors();
+    }
+
+    function getInvestorByIndex(uint256 _index) public constant returns(address) {
+      return token.getInvestorByIndex(_index);
+    }
+
+    function getInvestorByValue(address _address)  public constant returns(uint256) {
+      return token.getInvestorByValue(_address);
     }
 
 }
