@@ -1,0 +1,144 @@
+{
+  "contract_name": "VolumeBasedBonus",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "zeroExtraVolume",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "secondVolumeBonus",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "thirdExtraVolume",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "fiveVolumeBonus",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "firstVolumeBonus",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "fourVolumeBonus",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "thirdVolumeBonus",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "firstExtraVolume",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "fourExtraVolume",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "secondExtraVolume",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "payable": false,
+      "type": "constructor"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000f57600080fd5b5b6801a055690d9db800006000556802b5e3af16b1880000600155600a60025568056bc75e2d63100000600355600f600455681043561a88293000006005556014600655683635c9adc5dea000006007556019600855601e6009555b5b6102808061007b6000396000f300606060405236156100a15763ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663016b563981146100a657806316c204c6146100cb5780632a4e78de146100f057806351cd661b146101155780638df74c081461013a5780639d6a3d3f1461015f578063b2680abb14610184578063bfdc92f9146101a9578063c7dc4ebd146101ce578063fa04338e146101f3575b600080fd5b34156100b157600080fd5b6100b9610218565b60405190815260200160405180910390f35b34156100d657600080fd5b6100b961021e565b60405190815260200160405180910390f35b34156100fb57600080fd5b6100b9610224565b60405190815260200160405180910390f35b341561012057600080fd5b6100b961022a565b60405190815260200160405180910390f35b341561014557600080fd5b6100b9610230565b60405190815260200160405180910390f35b341561016a57600080fd5b6100b9610236565b60405190815260200160405180910390f35b341561018f57600080fd5b6100b961023c565b60405190815260200160405180910390f35b34156101b457600080fd5b6100b9610242565b60405190815260200160405180910390f35b34156101d957600080fd5b6100b9610248565b60405190815260200160405180910390f35b34156101fe57600080fd5b6100b961024e565b60405190815260200160405180910390f35b60005481565b60045481565b60055481565b60095481565b60025481565b60085481565b60065481565b60015481565b60075481565b600354815600a165627a7a72305820b8eedc14df2ea082d5ab541fa9b146b052ae34629abbb2e16d5b06bf1f1cfa8d0029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1504409289855
+}

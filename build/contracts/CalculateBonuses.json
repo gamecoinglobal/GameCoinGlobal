@@ -1,0 +1,235 @@
+{
+  "contract_name": "CalculateBonuses",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "zeroExtraVolume",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "secondVolumeBonus",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "firstBonusPhase",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "thirdExtraVolume",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "fiveVolumeBonus",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "ico_start",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "firstVolumeBonus",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "fourVolumeBonus",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "secondBonusPhase",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "thirdExtraBonus",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "thirdBonusPhase",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "secondExtraBonus",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "thirdVolumeBonus",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "firstExtraVolume",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "firstExtraBonus",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "fourExtraVolume",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "secondExtraVolume",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "payable": false,
+      "type": "constructor"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000f57600080fd5b5b6359a9282b601081905561003490620151806401000000006103ce6100e582021704565b600a55600f600b55601054610059906202a3006401000000006103ce6100e582021704565b600c55600a600d5560105461007e906203f4806401000000006103ce6100e582021704565b600e556005600f8181556801a055690d9db800006000556802b5e3af16b1880000600155600a60025568056bc75e2d63100000600355600455681043561a882930000090556014600655683635c9adc5dea000006007556019600855601e6009555b6100ff565b6000828201838110156100f457fe5b8091505b5092915050565b6104148061010e6000396000f300606060405236156100ee5763ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663016b563981146100f357806316c204c6146101185780632489c13f1461013d5780632a4e78de1461016257806351cd661b146101875780637a013105146101ac5780638df74c08146101d15780639d6a3d3f146101f6578063a1f848011461021b578063a2b75c1514610240578063a520693014610265578063a9fe424f1461028a578063b2680abb146102af578063bfdc92f9146102d4578063c60ce8c4146102f9578063c7dc4ebd1461031e578063fa04338e14610343575b600080fd5b34156100fe57600080fd5b610106610368565b60405190815260200160405180910390f35b341561012357600080fd5b61010661036e565b60405190815260200160405180910390f35b341561014857600080fd5b610106610374565b60405190815260200160405180910390f35b341561016d57600080fd5b61010661037a565b60405190815260200160405180910390f35b341561019257600080fd5b610106610380565b60405190815260200160405180910390f35b34156101b757600080fd5b610106610386565b60405190815260200160405180910390f35b34156101dc57600080fd5b61010661038c565b60405190815260200160405180910390f35b341561020157600080fd5b610106610392565b60405190815260200160405180910390f35b341561022657600080fd5b610106610398565b60405190815260200160405180910390f35b341561024b57600080fd5b61010661039e565b60405190815260200160405180910390f35b341561027057600080fd5b6101066103a4565b60405190815260200160405180910390f35b341561029557600080fd5b6101066103aa565b60405190815260200160405180910390f35b34156102ba57600080fd5b6101066103b0565b60405190815260200160405180910390f35b34156102df57600080fd5b6101066103b6565b60405190815260200160405180910390f35b341561030457600080fd5b6101066103bc565b60405190815260200160405180910390f35b341561032957600080fd5b6101066103c2565b60405190815260200160405180910390f35b341561034e57600080fd5b6101066103c8565b60405190815260200160405180910390f35b60005481565b60045481565b600a5481565b60055481565b60095481565b60105481565b60025481565b60085481565b600c5481565b600f5481565b600e5481565b600d5481565b60065481565b60015481565b600b5481565b60075481565b60035481565b6000828201838110156103dd57fe5b8091505b50929150505600a165627a7a7230582083eb0e41df1fd0ffcb7b3ca89e541ac1b1c5b58413be7e8d87a920bcbb3a119c0029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1504409988986
+}

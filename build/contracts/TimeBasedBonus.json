@@ -1,0 +1,105 @@
+{
+  "contract_name": "TimeBasedBonus",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "firstBonusPhase",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "ico_start",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "secondBonusPhase",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "thirdExtraBonus",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "thirdBonusPhase",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "secondExtraBonus",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "firstExtraBonus",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "payable": false,
+      "type": "constructor"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000f57600080fd5b5b6359a9282b600681905561003490620151806401000000006101b261008b82021704565b600055600f600155600654610059906202a3006401000000006101b261008b82021704565b600255600a60035560065461007e906203f4806401000000006101b261008b82021704565b600455600580555b6100a5565b60008282018381101561009a57fe5b8091505b5092915050565b6101f8806100b46000396000f300606060405236156100805763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416632489c13f81146100855780637a013105146100aa578063a1f84801146100cf578063a2b75c15146100f4578063a520693014610119578063a9fe424f1461013e578063c60ce8c414610163575b600080fd5b341561009057600080fd5b610098610188565b60405190815260200160405180910390f35b34156100b557600080fd5b61009861018e565b60405190815260200160405180910390f35b34156100da57600080fd5b610098610194565b60405190815260200160405180910390f35b34156100ff57600080fd5b61009861019a565b60405190815260200160405180910390f35b341561012457600080fd5b6100986101a0565b60405190815260200160405180910390f35b341561014957600080fd5b6100986101a6565b60405190815260200160405180910390f35b341561016e57600080fd5b6100986101ac565b60405190815260200160405180910390f35b60005481565b60065481565b60025481565b60055481565b60045481565b60035481565b60015481565b6000828201838110156101c157fe5b8091505b50929150505600a165627a7a723058205ee16d1c79e10b32377fa1aa655cde3f122bc9f7c75bed169c30eae6523c3e2e0029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1504409289801
+}

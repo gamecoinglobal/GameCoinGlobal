@@ -1,0 +1,235 @@
+{
+  "contract_name": "Addresses",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "addr11",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "soldTokenAddressTwo",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "addr7",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "addr6",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "addr13",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "addr8",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "successFee",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "addr12",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "addr2",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "addr9",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "addr3",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "bounty",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "soldTokenAddressOne",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "addr5",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "addr1",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "addr10",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "addr4",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "payable": false,
+      "type": "constructor"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000f57600080fd5b5b60008054600160a060020a0319908116731626079328312cdb1e731a934a547c6d81b3ee2c1790915560018054821673f280dacf47f33f442cf5fa9d20abaef4b6e9ca121790556002805482167333c8d18e9b46872cebb31384bfbec53cb32ccf12179055600380548216739fb741062cf25e47d08ba19c71fba33264ecb65f17905560048054821673a84987770d200a731baaa907f36e85bbe2874fec1790556005805482167354d7e61706115fd7c3f529c19fc2467e7c914f6a179055600680548216736683ac1a9675ddc0031c7a2b6cb5a5e933035295179055600780548216734b09456c4ae9982763838662afd64a140c2b10d917905560088054821673a2b0101a038f39fc9e0be939a716e20dadc2769c179055600980548216736b1401dd39f0966fb10477553f85d115144f82d8179055600a80548216730abbdc983dc6d51cc9fb087a1bb9842e3e977e34179055600b8054821673dab633f7f790b8a8441f7cdd34fd40117ba8f3e5179055600c805482167325e4333290e9ff81a4d105eb0d0cebc0a867a69f179055600d80548216735d26046b76ade35327540c5d90619733018b5a69179055600e80548216739e38809c23f17f5204637cce80b59bd93426a900179055600f80548216738e91e20d8ffa3ac6429a05541f0e8babe88c9ef91790556010805490911673c258d515cdbeadc423f4cb15abb3b9236b44fd871790555b5b61053d8061022b6000396000f300606060405236156100ee5763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416630eec1aba81146100f35780631eaa4caa146101225780633b933b7314610151578063527116d514610180578063552846f9146101af5780635f57e0b5146101de5780637554fffd1461020d57806379083b761461023c5780638de38f981461026b5780638dfc8a041461029a5780639347e6d7146102c9578063943dfef1146102f8578063a26542b214610327578063c3ffc4d214610356578063eabe09ad14610385578063f1394a1f146103b4578063fd7808f6146103e3575b600080fd5b34156100fe57600080fd5b610106610412565b604051600160a060020a03909116815260200160405180910390f35b341561012d57600080fd5b610106610421565b604051600160a060020a03909116815260200160405180910390f35b341561015c57600080fd5b610106610430565b604051600160a060020a03909116815260200160405180910390f35b341561018b57600080fd5b61010661043f565b604051600160a060020a03909116815260200160405180910390f35b34156101ba57600080fd5b61010661044e565b604051600160a060020a03909116815260200160405180910390f35b34156101e957600080fd5b61010661045d565b604051600160a060020a03909116815260200160405180910390f35b341561021857600080fd5b61010661046c565b604051600160a060020a03909116815260200160405180910390f35b341561024757600080fd5b61010661047b565b604051600160a060020a03909116815260200160405180910390f35b341561027657600080fd5b61010661048a565b604051600160a060020a03909116815260200160405180910390f35b34156102a557600080fd5b610106610499565b604051600160a060020a03909116815260200160405180910390f35b34156102d457600080fd5b6101066104a8565b604051600160a060020a03909116815260200160405180910390f35b341561030357600080fd5b6101066104b7565b604051600160a060020a03909116815260200160405180910390f35b341561033257600080fd5b6101066104c6565b604051600160a060020a03909116815260200160405180910390f35b341561036157600080fd5b6101066104d5565b604051600160a060020a03909116815260200160405180910390f35b341561039057600080fd5b6101066104e4565b604051600160a060020a03909116815260200160405180910390f35b34156103bf57600080fd5b6101066104f3565b604051600160a060020a03909116815260200160405180910390f35b34156103ee57600080fd5b610106610502565b604051600160a060020a03909116815260200160405180910390f35b600c54600160a060020a031681565b601054600160a060020a031681565b600854600160a060020a031681565b600754600160a060020a031681565b600e54600160a060020a031681565b600954600160a060020a031681565b600154600160a060020a031681565b600d54600160a060020a031681565b600354600160a060020a031681565b600a54600160a060020a031681565b600454600160a060020a031681565b600054600160a060020a031681565b600f54600160a060020a031681565b600654600160a060020a031681565b600254600160a060020a031681565b600b54600160a060020a031681565b600554600160a060020a0316815600a165627a7a7230582029961faf53cf9e564aaa7b7710074110b3a355ec7f122989491c05157d403af50029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1504874531278
+}
